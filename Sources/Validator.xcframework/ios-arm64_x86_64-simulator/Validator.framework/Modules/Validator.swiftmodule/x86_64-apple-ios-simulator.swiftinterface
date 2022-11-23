@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Validator
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import Validator
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class Validator {
+  public enum ValidationType {
+    case email
+    case password
+    case name
+    public static func == (a: Validator.Validator.ValidationType, b: Validator.Validator.ValidationType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static func configure(appName: Swift.String)
+  public static func checkValidation(on type: Validator.Validator.ValidationType, of str: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+extension Validator.Validator.ValidationType : Swift.Equatable {}
+extension Validator.Validator.ValidationType : Swift.Hashable {}
