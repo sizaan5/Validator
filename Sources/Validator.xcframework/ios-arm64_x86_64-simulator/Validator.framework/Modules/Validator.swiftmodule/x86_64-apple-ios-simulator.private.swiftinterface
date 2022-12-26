@@ -7,20 +7,24 @@ import Swift
 @_exported import Validator
 import _Concurrency
 import _StringProcessing
-@_hasMissingDesignatedInitializers public class Validaton {
+@_hasMissingDesignatedInitializers public class Validation {
   public enum ValidationType {
     case email
     case password
     case name
-    public static func == (a: Validator.Validaton.ValidationType, b: Validator.Validaton.ValidationType) -> Swift.Bool
+    public static func == (a: Validator.Validation.ValidationType, b: Validator.Validation.ValidationType) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
   }
-  public static func configure(appName: Swift.String)
-  public static func checkValidation(on type: Validator.Validaton.ValidationType, of str: Swift.String) -> Swift.Bool
+  public static func configure(appName: Swift.String) -> Swift.Bool
+  public static func checkValidation(on type: Validator.Validation.ValidationType, of str: Swift.String) -> Swift.Bool
   @objc deinit
 }
-extension Validator.Validaton.ValidationType : Swift.Equatable {}
-extension Validator.Validaton.ValidationType : Swift.Hashable {}
+@_hasMissingDesignatedInitializers public class TestFile {
+  public static func abc()
+  @objc deinit
+}
+extension Validator.Validation.ValidationType : Swift.Equatable {}
+extension Validator.Validation.ValidationType : Swift.Hashable {}

@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Validaton",
-        "printedName": "Validaton",
+        "name": "Validation",
+        "printedName": "Validation",
         "children": [
           {
             "kind": "TypeDecl",
@@ -32,24 +32,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Validator.Validaton.ValidationType.Type) -> Validator.Validaton.ValidationType",
+                    "printedName": "(Validator.Validation.ValidationType.Type) -> Validator.Validation.ValidationType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ValidationType",
-                        "printedName": "Validator.Validaton.ValidationType",
-                        "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                        "printedName": "Validator.Validation.ValidationType",
+                        "usr": "s:9Validator10ValidationC0B4TypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "Validator.Validaton.ValidationType.Type",
+                        "printedName": "Validator.Validation.ValidationType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ValidationType",
-                            "printedName": "Validator.Validaton.ValidationType",
-                            "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                            "printedName": "Validator.Validation.ValidationType",
+                            "usr": "s:9Validator10ValidationC0B4TypeO"
                           }
                         ]
                       }
@@ -57,8 +57,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9Validator9ValidatonC14ValidationTypeO5emailyA2EmF",
-                "mangledName": "$s9Validator9ValidatonC14ValidationTypeO5emailyA2EmF",
+                "usr": "s:9Validator10ValidationC0B4TypeO5emailyA2EmF",
+                "mangledName": "$s9Validator10ValidationC0B4TypeO5emailyA2EmF",
                 "moduleName": "Validator"
               },
               {
@@ -69,24 +69,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Validator.Validaton.ValidationType.Type) -> Validator.Validaton.ValidationType",
+                    "printedName": "(Validator.Validation.ValidationType.Type) -> Validator.Validation.ValidationType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ValidationType",
-                        "printedName": "Validator.Validaton.ValidationType",
-                        "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                        "printedName": "Validator.Validation.ValidationType",
+                        "usr": "s:9Validator10ValidationC0B4TypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "Validator.Validaton.ValidationType.Type",
+                        "printedName": "Validator.Validation.ValidationType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ValidationType",
-                            "printedName": "Validator.Validaton.ValidationType",
-                            "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                            "printedName": "Validator.Validation.ValidationType",
+                            "usr": "s:9Validator10ValidationC0B4TypeO"
                           }
                         ]
                       }
@@ -94,8 +94,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9Validator9ValidatonC14ValidationTypeO8passwordyA2EmF",
-                "mangledName": "$s9Validator9ValidatonC14ValidationTypeO8passwordyA2EmF",
+                "usr": "s:9Validator10ValidationC0B4TypeO8passwordyA2EmF",
+                "mangledName": "$s9Validator10ValidationC0B4TypeO8passwordyA2EmF",
                 "moduleName": "Validator"
               },
               {
@@ -106,24 +106,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Validator.Validaton.ValidationType.Type) -> Validator.Validaton.ValidationType",
+                    "printedName": "(Validator.Validation.ValidationType.Type) -> Validator.Validation.ValidationType",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ValidationType",
-                        "printedName": "Validator.Validaton.ValidationType",
-                        "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                        "printedName": "Validator.Validation.ValidationType",
+                        "usr": "s:9Validator10ValidationC0B4TypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "Validator.Validaton.ValidationType.Type",
+                        "printedName": "Validator.Validation.ValidationType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ValidationType",
-                            "printedName": "Validator.Validaton.ValidationType",
-                            "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                            "printedName": "Validator.Validation.ValidationType",
+                            "usr": "s:9Validator10ValidationC0B4TypeO"
                           }
                         ]
                       }
@@ -131,8 +131,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9Validator9ValidatonC14ValidationTypeO4nameyA2EmF",
-                "mangledName": "$s9Validator9ValidatonC14ValidationTypeO4nameyA2EmF",
+                "usr": "s:9Validator10ValidationC0B4TypeO4nameyA2EmF",
+                "mangledName": "$s9Validator10ValidationC0B4TypeO4nameyA2EmF",
                 "moduleName": "Validator"
               },
               {
@@ -149,19 +149,19 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ValidationType",
-                    "printedName": "Validator.Validaton.ValidationType",
-                    "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                    "printedName": "Validator.Validation.ValidationType",
+                    "usr": "s:9Validator10ValidationC0B4TypeO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "ValidationType",
-                    "printedName": "Validator.Validaton.ValidationType",
-                    "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                    "printedName": "Validator.Validation.ValidationType",
+                    "usr": "s:9Validator10ValidationC0B4TypeO"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:9Validator9ValidatonC14ValidationTypeO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s9Validator9ValidatonC14ValidationTypeO2eeoiySbAE_AEtFZ",
+                "usr": "s:9Validator10ValidationC0B4TypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9Validator10ValidationC0B4TypeO2eeoiySbAE_AEtFZ",
                 "moduleName": "Validator",
                 "static": true,
                 "implicit": true,
@@ -180,8 +180,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9Validator9ValidatonC14ValidationTypeO9hashValueSivp",
-                "mangledName": "$s9Validator9ValidatonC14ValidationTypeO9hashValueSivp",
+                "usr": "s:9Validator10ValidationC0B4TypeO9hashValueSivp",
+                "mangledName": "$s9Validator10ValidationC0B4TypeO9hashValueSivp",
                 "moduleName": "Validator",
                 "implicit": true,
                 "accessors": [
@@ -198,8 +198,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9Validator9ValidatonC14ValidationTypeO9hashValueSivg",
-                    "mangledName": "$s9Validator9ValidatonC14ValidationTypeO9hashValueSivg",
+                    "usr": "s:9Validator10ValidationC0B4TypeO9hashValueSivg",
+                    "mangledName": "$s9Validator10ValidationC0B4TypeO9hashValueSivg",
                     "moduleName": "Validator",
                     "implicit": true,
                     "accessorKind": "get"
@@ -225,16 +225,16 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:9Validator9ValidatonC14ValidationTypeO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s9Validator9ValidatonC14ValidationTypeO4hash4intoys6HasherVz_tF",
+                "usr": "s:9Validator10ValidationC0B4TypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9Validator10ValidationC0B4TypeO4hash4intoys6HasherVz_tF",
                 "moduleName": "Validator",
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Enum",
-            "usr": "s:9Validator9ValidatonC14ValidationTypeO",
-            "mangledName": "$s9Validator9ValidatonC14ValidationTypeO",
+            "usr": "s:9Validator10ValidationC0B4TypeO",
+            "mangledName": "$s9Validator10ValidationC0B4TypeO",
             "moduleName": "Validator",
             "declAttributes": [
               "AccessControl"
@@ -263,8 +263,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -274,8 +275,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9Validator9ValidatonC9configure7appNameySS_tFZ",
-            "mangledName": "$s9Validator9ValidatonC9configure7appNameySS_tFZ",
+            "usr": "s:9Validator10ValidationC9configure7appNameSbSS_tFZ",
+            "mangledName": "$s9Validator10ValidationC9configure7appNameSbSS_tFZ",
             "moduleName": "Validator",
             "static": true,
             "declAttributes": [
@@ -298,8 +299,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "ValidationType",
-                "printedName": "Validator.Validaton.ValidationType",
-                "usr": "s:9Validator9ValidatonC14ValidationTypeO"
+                "printedName": "Validator.Validation.ValidationType",
+                "usr": "s:9Validator10ValidationC0B4TypeO"
               },
               {
                 "kind": "TypeNominal",
@@ -309,8 +310,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9Validator9ValidatonC15checkValidation2on2ofSbAC0D4TypeO_SStFZ",
-            "mangledName": "$s9Validator9ValidatonC15checkValidation2on2ofSbAC0D4TypeO_SStFZ",
+            "usr": "s:9Validator10ValidationC05checkB02on2ofSbAC0B4TypeO_SStFZ",
+            "mangledName": "$s9Validator10ValidationC05checkB02on2ofSbAC0B4TypeO_SStFZ",
             "moduleName": "Validator",
             "static": true,
             "declAttributes": [
@@ -321,8 +322,55 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:9Validator9ValidatonC",
-        "mangledName": "$s9Validator9ValidatonC",
+        "usr": "s:9Validator10ValidationC",
+        "mangledName": "$s9Validator10ValidationC",
+        "moduleName": "Validator",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Validator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestFile",
+        "printedName": "TestFile",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "abc",
+            "printedName": "abc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Validator8TestFileC3abcyyFZ",
+            "mangledName": "$s9Validator8TestFileC3abcyyFZ",
+            "moduleName": "Validator",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9Validator8TestFileC",
+        "mangledName": "$s9Validator8TestFileC",
         "moduleName": "Validator",
         "declAttributes": [
           "AccessControl"
@@ -334,16 +382,16 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/izaann\/Dropbox\/My Mac (Uzmas-MacBook-Pro.local)\/Desktop\/TestProject\/Validator\/Validator\/Validaton.swift",
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Validation.swift",
       "kind": "BooleanLiteral",
-      "offset": 179,
+      "offset": 180,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/izaann\/Dropbox\/My Mac (Uzmas-MacBook-Pro.local)\/Desktop\/TestProject\/Validator\/Validator\/Validaton.swift",
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Validation.swift",
       "kind": "Array",
-      "offset": 224,
+      "offset": 225,
       "length": 41,
       "value": "[\"com.m3tech.RealtimeChat\"]"
     }
