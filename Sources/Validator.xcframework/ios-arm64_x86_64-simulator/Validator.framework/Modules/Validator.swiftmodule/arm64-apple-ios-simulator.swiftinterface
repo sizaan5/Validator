@@ -23,6 +23,11 @@ import _StringProcessing
   public static func checkValidation(on type: Validator.Validation.ValidationType, of str: Swift.String) -> Swift.Bool
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TestViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class TestFile {
   public static func abc()
   public static func openValidatorApp(navigationController: UIKit.UINavigationController)
