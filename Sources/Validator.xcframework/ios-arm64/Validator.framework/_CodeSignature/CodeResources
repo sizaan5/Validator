@@ -18,7 +18,15 @@
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
-		GnMdGFfDuvwAuWJN7FS9ELLozY4=
+		Y6XjSWAEVPImnT6SDwrXEtwqtUc=
+		</data>
+		<key>Main.storyboardc/TestViewController.nib</key>
+		<data>
+		kwyCJYkPEQNUKIVjMZFFyBvaJRs=
+		</data>
+		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		Rc8azX8NVsaE7CGrMtzkd4YtTv0=
 		</data>
 		<key>Modules/Validator.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -65,7 +73,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
+			fiNRGjEMDy66tZcnXB3xop/ESqz7t2SOk7yM6YYesV0=
+			</data>
+		</dict>
+		<key>Main.storyboardc/TestViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XOSMPa7+j869DxP56ouqRxkFmWxL/JbKHLVf/NN5o7I=
+			</data>
+		</dict>
+		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DAcMX+EgFsngCCGn4jnRPc+2bCVqroP1i52mcxG+nng=
 			</data>
 		</dict>
 		<key>Modules/Validator.swiftmodule/arm64-apple-ios.abi.json</key>
