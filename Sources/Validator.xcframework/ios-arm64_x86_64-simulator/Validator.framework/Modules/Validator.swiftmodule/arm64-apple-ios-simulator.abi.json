@@ -332,6 +332,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Validator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -339,6 +349,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Validator"
       },
       {
         "kind": "TypeDecl",
@@ -359,6 +376,34 @@
             "declKind": "Func",
             "usr": "s:9Validator8TestFileC3abcyyFZ",
             "mangledName": "$s9Validator8TestFileC3abcyyFZ",
+            "moduleName": "Validator",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openValidatorApp",
+            "printedName": "openValidatorApp(navigationController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Validator8TestFileC04openA3App20navigationControllerySo012UINavigationG0C_tFZ",
+            "mangledName": "$s9Validator8TestFileC04openA3App20navigationControllerySo012UINavigationG0C_tFZ",
             "moduleName": "Validator",
             "static": true,
             "declAttributes": [

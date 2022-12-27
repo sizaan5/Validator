@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import Swift
+import UIKit
 @_exported import Validator
 import _Concurrency
 import _StringProcessing
@@ -24,6 +25,7 @@ import _StringProcessing
 }
 @_hasMissingDesignatedInitializers public class TestFile {
   public static func abc()
+  public static func openValidatorApp(navigationController: UIKit.UINavigationController)
   @objc deinit
 }
 extension Validator.Validation.ValidationType : Swift.Equatable {}
