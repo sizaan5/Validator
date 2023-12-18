@@ -22,12 +22,13 @@ import _SwiftConcurrencyShims
   }
   public static func configure(appName: Swift.String) -> Swift.Bool
   public static func checkValidation(on type: Validator.Validation.ValidationType, of str: Swift.String) -> Swift.Bool
-  public static func openTestViewController(in navigationController: UIKit.UINavigationController)
+  public static func openTestViewController(in navigationController: UIKit.UINavigationController, color: UIKit.UIColor)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TestViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TestViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TestFile {
