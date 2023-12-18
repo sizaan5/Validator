@@ -1,7 +1,7 @@
 framework module Validator {
   umbrella header "Validator.h"
-
   export *
+
   module * { export * }
 }
 
