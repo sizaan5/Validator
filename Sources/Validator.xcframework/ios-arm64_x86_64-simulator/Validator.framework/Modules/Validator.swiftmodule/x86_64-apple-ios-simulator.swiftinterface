@@ -9,6 +9,9 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TestView : UIKit.UIView {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class Validation {
   public enum ValidationType {
     case email
