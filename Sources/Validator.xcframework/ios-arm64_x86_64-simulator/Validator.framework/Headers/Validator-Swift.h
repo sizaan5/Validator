@@ -299,16 +299,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
-
-SWIFT_CLASS("_TtC9Validator8TestView")
-@interface TestView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-@end
-
 @class NSString;
 @class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC9Validator18TestViewController")
 @interface TestViewController : UIViewController
@@ -317,6 +310,18 @@ SWIFT_CLASS("_TtC9Validator18TestViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@class UILabel;
+@class UIButton;
+
+SWIFT_CLASS("_TtC9Validator15TestViewTesting")
+@interface TestViewTesting : UIView
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblText;
+- (IBAction)clickAction:(UIButton * _Nonnull)sender;
+- (IBAction)clickInsideAction:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -627,16 +632,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
-
-SWIFT_CLASS("_TtC9Validator8TestView")
-@interface TestView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-@end
-
 @class NSString;
 @class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC9Validator18TestViewController")
 @interface TestViewController : UIViewController
@@ -645,6 +643,18 @@ SWIFT_CLASS("_TtC9Validator18TestViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@class UILabel;
+@class UIButton;
+
+SWIFT_CLASS("_TtC9Validator15TestViewTesting")
+@interface TestViewTesting : UIView
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblText;
+- (IBAction)clickAction:(UIButton * _Nonnull)sender;
+- (IBAction)clickInsideAction:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

@@ -6,103 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Validator",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TestView",
-        "printedName": "TestView",
-        "declKind": "Class",
-        "usr": "c:@M@Validator@objc(cs)TestView",
-        "mangledName": "$s9Validator8TestViewC",
-        "moduleName": "Validator",
-        "declAttributes": [
-          "Custom",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -486,6 +389,541 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TestViewTesting",
+        "printedName": "TestViewTesting",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lblText",
+            "printedName": "lblText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UILabel?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Validator@objc(cs)TestViewTesting(py)lblText",
+            "mangledName": "$s9Validator15TestViewTestingC7lblTextSo7UILabelCSgvp",
+            "moduleName": "Validator",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership",
+              "IBOutlet",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Validator@objc(cs)TestViewTesting(im)lblText",
+                "mangledName": "$s9Validator15TestViewTestingC7lblTextSo7UILabelCSgvg",
+                "moduleName": "Validator",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Validator@objc(cs)TestViewTesting(im)setLblText:",
+                "mangledName": "$s9Validator15TestViewTestingC7lblTextSo7UILabelCSgvs",
+                "moduleName": "Validator",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Validator15TestViewTestingC7lblTextSo7UILabelCSgvM",
+                "mangledName": "$s9Validator15TestViewTestingC7lblTextSo7UILabelCSgvM",
+                "moduleName": "Validator",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Validator.ViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewDelegate",
+                    "printedName": "Validator.ViewDelegate",
+                    "usr": "s:9Validator12ViewDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvp",
+            "mangledName": "$s9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvp",
+            "moduleName": "Validator",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Validator.ViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewDelegate",
+                        "printedName": "Validator.ViewDelegate",
+                        "usr": "s:9Validator12ViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvg",
+                "mangledName": "$s9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvg",
+                "moduleName": "Validator",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Validator.ViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewDelegate",
+                        "printedName": "Validator.ViewDelegate",
+                        "usr": "s:9Validator12ViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvs",
+                "mangledName": "$s9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvs",
+                "moduleName": "Validator",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvM",
+                "mangledName": "$s9Validator15TestViewTestingC8delegateAA0C8Delegate_pSgvM",
+                "moduleName": "Validator",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadFromNib",
+            "printedName": "loadFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestViewTesting",
+                "printedName": "Validator.TestViewTesting",
+                "usr": "c:@M@Validator@objc(cs)TestViewTesting"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Validator15TestViewTestingC11loadFromNibACyFZ",
+            "mangledName": "$s9Validator15TestViewTestingC11loadFromNibACyFZ",
+            "moduleName": "Validator",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clickAction",
+            "printedName": "clickAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Validator@objc(cs)TestViewTesting(im)clickAction:",
+            "mangledName": "$s9Validator15TestViewTestingC11clickActionyySo8UIButtonCF",
+            "moduleName": "Validator",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "IBAction",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clickInsideAction",
+            "printedName": "clickInsideAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Validator@objc(cs)TestViewTesting(im)clickInsideAction:",
+            "mangledName": "$s9Validator15TestViewTestingC17clickInsideActionyySo8UIButtonCF",
+            "moduleName": "Validator",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "IBAction",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestViewTesting",
+                "printedName": "Validator.TestViewTesting",
+                "usr": "c:@M@Validator@objc(cs)TestViewTesting"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Validator@objc(cs)TestViewTesting(im)initWithFrame:",
+            "mangledName": "$s9Validator15TestViewTestingC5frameACSo6CGRectV_tcfc",
+            "moduleName": "Validator",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Validator.TestViewTesting?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestViewTesting",
+                    "printedName": "Validator.TestViewTesting",
+                    "usr": "c:@M@Validator@objc(cs)TestViewTesting"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Validator@objc(cs)TestViewTesting(im)initWithCoder:",
+            "mangledName": "$s9Validator15TestViewTestingC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Validator",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Validator@objc(cs)TestViewTesting",
+        "mangledName": "$s9Validator15TestViewTestingC",
+        "moduleName": "Validator",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewDelegate",
+        "printedName": "ViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "click",
+            "printedName": "click()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Validator12ViewDelegateP5clickyyF",
+            "mangledName": "$s9Validator12ViewDelegateP5clickyyF",
+            "moduleName": "Validator",
+            "genericSig": "<τ_0_0 where τ_0_0 : Validator.ViewDelegate>",
+            "sugared_genericSig": "<Self where Self : Validator.ViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clickInside",
+            "printedName": "clickInside()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Validator12ViewDelegateP11clickInsideyyF",
+            "mangledName": "$s9Validator12ViewDelegateP11clickInsideyyF",
+            "moduleName": "Validator",
+            "genericSig": "<τ_0_0 where τ_0_0 : Validator.ViewDelegate>",
+            "sugared_genericSig": "<Self where Self : Validator.ViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9Validator12ViewDelegateP",
+        "mangledName": "$s9Validator12ViewDelegateP",
+        "moduleName": "Validator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Validator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "TestViewController",
         "printedName": "TestViewController",
         "children": [
@@ -611,6 +1049,50 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "click",
+            "printedName": "click()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Validator18TestViewControllerC5clickyyF",
+            "mangledName": "$s9Validator18TestViewControllerC5clickyyF",
+            "moduleName": "Validator",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clickInside",
+            "printedName": "clickInside()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Validator18TestViewControllerC11clickInsideyyF",
+            "mangledName": "$s9Validator18TestViewControllerC11clickInsideyyF",
+            "moduleName": "Validator",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -630,6 +1112,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewDelegate",
+            "printedName": "ViewDelegate",
+            "usr": "s:9Validator12ViewDelegateP",
+            "mangledName": "$s9Validator12ViewDelegateP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -678,13 +1167,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -793,20 +1275,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Test\/TestView.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 10,
-      "value": "\"TestView\""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Test\/TestView.swift",
-      "kind": "StringLiteral",
-      "offset": 638,
-      "length": 10,
-      "value": "\"TestView\""
-    },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Validation.swift",
       "kind": "BooleanLiteral",
@@ -920,51 +1388,44 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Test\/TestViewTesting.swift",
       "kind": "StringLiteral",
-      "offset": 740,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1070,
-      "length": 1,
-      "value": "0"
+      "offset": 380,
+      "length": 17,
+      "value": "\"TestViewTesting\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 21,
-      "value": "\"testView is not nil\""
+      "offset": 348,
+      "length": 5,
+      "value": "\"N\/A\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1388,
+      "offset": 689,
       "length": 43,
       "value": "\"I am view viewDidLoad() from Validator :)\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2037,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 3,
+      "value": "\"-\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2130,
-      "length": 5,
-      "value": "\"BYE\""
+      "offset": 1471,
+      "length": 18,
+      "value": "\"Inside framework\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2168,
+      "offset": 1525,
       "length": 4,
       "value": "true"
     },

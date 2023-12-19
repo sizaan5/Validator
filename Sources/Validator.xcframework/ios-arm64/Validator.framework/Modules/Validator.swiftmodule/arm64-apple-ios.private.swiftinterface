@@ -9,9 +9,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TestView : UIKit.UIView {
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers public class Validation {
   public enum ValidationType {
     case email
@@ -28,11 +25,29 @@ import _SwiftConcurrencyShims
   public static func openTestViewController(in navigationController: UIKit.UINavigationController, color: UIKit.UIColor, text: Swift.String)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TestViewTesting : UIKit.UIView {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var lblText: UIKit.UILabel!
+  @_Concurrency.MainActor(unsafe) public var delegate: (any Validator.ViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public class func loadFromNib() -> Validator.TestViewTesting
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func clickAction(_ sender: UIKit.UIButton)
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func clickInsideAction(_ sender: UIKit.UIButton)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol ViewDelegate {
+  func click()
+  func clickInside()
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TestViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+extension Validator.TestViewController : Validator.ViewDelegate {
+  @_Concurrency.MainActor(unsafe) public func click()
+  @_Concurrency.MainActor(unsafe) public func clickInside()
 }
 @_hasMissingDesignatedInitializers public class TestFile {
   public static func abc()
