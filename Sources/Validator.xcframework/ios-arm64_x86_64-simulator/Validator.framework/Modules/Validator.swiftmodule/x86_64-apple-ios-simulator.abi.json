@@ -330,7 +330,7 @@
           {
             "kind": "Function",
             "name": "openTestViewController",
-            "printedName": "openTestViewController(in:color:)",
+            "printedName": "openTestViewController(in:color:text:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -348,11 +348,17 @@
                 "name": "UIColor",
                 "printedName": "UIKit.UIColor",
                 "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9Validator10ValidationC22openTestViewController2in5colorySo012UINavigationF0C_So7UIColorCtFZ",
-            "mangledName": "$s9Validator10ValidationC22openTestViewController2in5colorySo012UINavigationF0C_So7UIColorCtFZ",
+            "usr": "s:9Validator10ValidationC22openTestViewController2in5color4textySo012UINavigationF0C_So7UIColorCSStFZ",
+            "mangledName": "$s9Validator10ValidationC22openTestViewController2in5color4textySo012UINavigationF0C_So7UIColorCSStFZ",
             "moduleName": "Validator",
             "static": true,
             "declAttributes": [
@@ -386,32 +392,6 @@
         "name": "TestViewController",
         "printedName": "TestViewController",
         "children": [
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Validator@objc(cs)TestViewController(im)viewDidLoad",
-            "mangledName": "$s9Validator18TestViewControllerC11viewDidLoadyyF",
-            "moduleName": "Validator",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -457,56 +437,42 @@
             "mangledName": "$s9Validator18TestViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
             "moduleName": "Validator",
             "overriding": true,
-            "implicit": true,
             "objc_name": "initWithNibName:bundle:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
               "Custom",
-              "Override"
+              "Override",
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Validator.TestViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TestViewController",
-                    "printedName": "Validator.TestViewController",
-                    "usr": "c:@M@Validator@objc(cs)TestViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
+                "name": "Void",
+                "printedName": "()"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Validator@objc(cs)TestViewController(im)initWithCoder:",
-            "mangledName": "$s9Validator18TestViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "declKind": "Func",
+            "usr": "c:@M@Validator@objc(cs)TestViewController(im)viewDidLoad",
+            "mangledName": "$s9Validator18TestViewControllerC11viewDidLoadyyF",
             "moduleName": "Validator",
             "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
+            "objc_name": "viewDidLoad",
             "declAttributes": [
               "Dynamic",
               "ObjC",
               "Custom",
-              "Required"
+              "Override",
+              "AccessControl",
+              "RawDocComment"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -519,6 +485,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
@@ -630,8 +597,8 @@
           },
           {
             "kind": "Function",
-            "name": "openValidatorApp",
-            "printedName": "openValidatorApp(navigationController:)",
+            "name": "openTestViewController",
+            "printedName": "openTestViewController(in:color:text:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -643,11 +610,23 @@
                 "name": "UINavigationController",
                 "printedName": "UIKit.UINavigationController",
                 "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9Validator8TestFileC04openA3App20navigationControllerySo012UINavigationG0C_tFZ",
-            "mangledName": "$s9Validator8TestFileC04openA3App20navigationControllerySo012UINavigationG0C_tFZ",
+            "usr": "s:9Validator8TestFileC04openB14ViewController2in5color4textySo012UINavigationF0C_So7UIColorCSStFZ",
+            "mangledName": "$s9Validator8TestFileC04openB14ViewController2in5color4textySo012UINavigationF0C_So7UIColorCSStFZ",
             "moduleName": "Validator",
             "static": true,
             "declAttributes": [
@@ -777,29 +756,43 @@
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Validation.swift",
-      "kind": "StringLiteral",
-      "offset": 1474,
-      "length": 6,
-      "value": "\"Main\""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Validation.swift",
-      "kind": "StringLiteral",
-      "offset": 1537,
-      "length": 20,
-      "value": "\"TestViewController\""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/Validation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1725,
+      "offset": 1674,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 45,
+      "value": "\"gjfkhldk;sfgdjfdl;asklsflhj;safsjk;sdfjlsks\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 40,
+      "value": "\"I am view viewDidLoad() from Validator\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1703,
+      "offset": 1549,
       "length": 4,
       "value": "true"
     },
@@ -813,7 +806,7 @@
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/TestProject\/Validator\/Validator\/TestFile.swift",
       "kind": "BooleanLiteral",
-      "offset": 451,
+      "offset": 557,
       "length": 4,
       "value": "true"
     }

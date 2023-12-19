@@ -22,18 +22,17 @@ import _SwiftConcurrencyShims
   }
   public static func configure(appName: Swift.String) -> Swift.Bool
   public static func checkValidation(on type: Validator.Validation.ValidationType, of str: Swift.String) -> Swift.Bool
-  public static func openTestViewController(in navigationController: UIKit.UINavigationController, color: UIKit.UIColor)
+  public static func openTestViewController(in navigationController: UIKit.UINavigationController, color: UIKit.UIColor, text: Swift.String)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TestViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TestViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TestFile {
   public static func abc()
-  public static func openValidatorApp(navigationController: UIKit.UINavigationController)
+  public static func openTestViewController(in navigationController: UIKit.UINavigationController, color: UIKit.UIColor, text: Swift.String)
   @objc deinit
 }
 extension Validator.Validation.ValidationType : Swift.Equatable {}
